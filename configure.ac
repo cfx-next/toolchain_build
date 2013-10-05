@@ -497,16 +497,16 @@ fi
 AC_SUBST(CLOOG_VERSION)
 
 if test "$ENABLE_GRAPHITE" == "yes"; then
-# isl version (default is 0.11.1)
+# isl version (default is 0.12.1)
 # isl is only used for gcc 4.8+ with graphite optimization.
 AC_MSG_CHECKING([isl version])
 AC_ARG_WITH([isl-version],
   [  --with-isl-version=VERSION
-                         use isl-VERSION (default is 0.11.1)],
+                         use isl-VERSION (default is 0.12.1)],
   [if test x"$withval" != x ; then
      ISL_VERSION="$withval"
    fi],
-[ISL_VERSION="0.11.1"])
+[ISL_VERSION="0.12.1"])
 AC_MSG_RESULT($ISL_VERSION)
 ANDROID_CHECK_PACKAGE(isl-${ISL_VERSION})
 fi

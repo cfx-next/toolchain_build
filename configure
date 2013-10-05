@@ -1315,7 +1315,7 @@ Optional Packages:
   --with-cloog-version=VERSION
                           use cloog-VERSION (default is 0.15.9)
   --with-isl-version=VERSION
-                          use isl-VERSION (default is 0.11.1)
+                          use isl-VERSION (default is 0.12.1)
   --with-gdb-version=VERSION
                           use gdb-VERSION (default is 6.6)
   --with-expat-version=VERSION
@@ -2715,7 +2715,7 @@ fi
 
 
 if test "$ENABLE_GRAPHITE" == "yes"; then
-# isl version (default is 0.11.1)
+# isl version (default is 0.12.1)
 # isl is only used for gcc 4.8+ with graphite optimization.
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking isl version" >&5
 $as_echo_n "checking isl version... " >&6; }
@@ -2726,7 +2726,7 @@ if test "${with_isl_version+set}" = set; then :
      ISL_VERSION="$withval"
    fi
 else
-  ISL_VERSION="0.11.1"
+  ISL_VERSION="0.12.1"
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ISL_VERSION" >&5
