@@ -2544,7 +2544,7 @@ if test "${with_mpfr_version+set}" = set; then :
      MPFR_VERSION="$withval"
    fi
 else
-  MPFR_VERSION="2.3.0"
+  MPFR_VERSION="3.1.2"
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: $MPFR_VERSION" >&5
@@ -2630,7 +2630,7 @@ if test "${with_ppl_version+set}" = set; then :
      PPL_VERSION="$withval"
    fi
 else
-  PPL_VERSION="0.11.2"
+  PPL_VERSION="1.0"
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: $PPL_VERSION" >&5
@@ -2672,7 +2672,7 @@ if test "${with_cloog_version+set}" = set; then :
      CLOOG_VERSION="$withval"
    fi
 else
-  CLOOG_VERSION="0.15.9"
+  CLOOG_VERSION="upstream"
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: $CLOOG_VERSION" >&5
@@ -2726,7 +2726,7 @@ if test "${with_isl_version+set}" = set; then :
      ISL_VERSION="$withval"
    fi
 else
-  ISL_VERSION="0.12.1"
+  ISL_VERSION="upstream"
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ISL_VERSION" >&5
@@ -2767,7 +2767,7 @@ if test "${with_gdb_version+set}" = set; then :
      GDB_VERSION="$withval"
    fi
 else
-  GDB_VERSION="linaro-dev"
+  GDB_VERSION="linaro-7.6-2013.05"
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: $GDB_VERSION" >&5
